@@ -103,19 +103,6 @@ ul {
     transition: 0.3s;
 }
 
-.drop:hover {
-    background-color: #363435;
-}
-
-.drop:hover > a {
-    color: white !important;
-}
-
-.drop:hover > .drop-list {
-    visibility: visible;
-    opacity: 1;
-}
-
 .drop-button {
     vertical-align: middle;
 }
@@ -176,6 +163,14 @@ ul {
         max-width: 50px;
     }
 
+    .drop:hover {
+        background-color: #363435;
+    }
+
+    .drop:hover > a {
+        color: white !important;
+    }
+
     .logo {
         margin-left: auto;
         margin-right: auto;
@@ -218,6 +213,19 @@ ul {
 @media (min-width: 768px) {
     .logo {
         margin: 0;
+    }
+
+    .drop:hover {
+        background-color: #363435;
+    }
+
+    .drop:hover > a {
+        color: white !important;
+    }
+
+    .drop:hover > .drop-list {
+        visibility: visible;
+        opacity: 1;
     }
 
     .pages-nav {

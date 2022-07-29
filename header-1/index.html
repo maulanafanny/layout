@@ -66,7 +66,7 @@
                     <!-- Categories Dropdown -->
                     <div class="drop col-lg-3 col-md-1 py-2 text-center">
                         <a class="drop-button d-none d-md-block" href="#"><i class="bi bi-list fs-4 me-1"></i> All Categories</a>
-                        <a class="drop-button d-sm-block d-md-none" href="#"><i class="bi bi-list fs-4 me-1"></i></a>
+                        <a class="drop-button d-sm-block d-md-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><i class="bi bi-list fs-4 me-1"></i></a>
                         <ul class="drop-list py-2 position-absolute text-start shadow-sm">
                             <li class="py-1"><a href="#">Lorem</a></li>
                             <li class="py-1"><a href="#">Ipsum</a></li>
@@ -74,6 +74,23 @@
                             <li class="py-1"><a href="#">Sit</a></li>
                             <li class="py-1"><a href="#">Amet</a></li>
                         </ul>
+                    </div>
+
+                    <!-- Offcanvas Sidebar -->
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">All Categories</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                <li class="pb-4"><a class="text-secondary" href="#">Lorem</a></li>
+                                <li class="pb-4"><a class="text-secondary" href="#">Ipsum</a></li>
+                                <li class="pb-4"><a class="text-secondary" href="#">Dolor</a></li>
+                                <li class="pb-4"><a class="text-secondary" href="#">Sit</a></li>
+                                <li class="pb-4"><a class="text-secondary" href="#">Amet</a></li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Pages Navigation -->
