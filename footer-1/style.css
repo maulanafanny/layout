@@ -44,15 +44,12 @@ ul {
 
 /* lg screen */
 @media (min-width: 960px) {
-    
+    .footer-list-product {
+        margin-left: 5%;
+    }
 }
 
 /* xl screen */
 @media (min-width: 1140px) {
-    
-}
-
-/* xxl screen */
-@media (min-width: 1320px) {
     
 }
