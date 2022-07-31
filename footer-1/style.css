@@ -10,6 +10,10 @@
 
 a {
     text-decoration: none;
+    color: #535352dd;
+}
+
+a:hover {
     color: #535352;
 }
 
