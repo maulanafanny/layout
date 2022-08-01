@@ -39,13 +39,19 @@ ul {
 
 /* md screen */
 @media (min-width: 720px) {
-    
+    .footer-list-product {
+        margin-left: 2%;
+    }
 }
 
 /* lg screen */
 @media (min-width: 960px) {
     .footer-list-product {
         margin-left: 5%;
+    }
+
+    .footer-info-pages {
+        width: 20%;
     }
 }
 
