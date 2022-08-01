@@ -29,7 +29,9 @@ ul {
 
 /* xs screen */
 @media (max-width: 540px) {
-    
+    .footer-brand {
+        margin-top: -22%;
+    }
 }
 
 /* sm screen */
@@ -41,6 +43,10 @@ ul {
 @media (min-width: 720px) {
     .footer-list-product {
         margin-left: 2%;
+    }
+
+    .footer-brand {
+        margin-top: -11%;
     }
 }
 
