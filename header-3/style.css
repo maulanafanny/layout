@@ -12,19 +12,22 @@ input:focus {
 }
 
 i, li, a, button {
-    color: white;
+    color: #363435;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 a:hover {
-    color: rgba(255, 255, 255, 0.578);
+    color: #363435;
 }
 
 ul {
     list-style-type: none;
 }
 
+.top-bar {
+    background-color: #363435;
+}
 
 .pages-badge {
     position: absolute;
@@ -38,15 +41,26 @@ ul {
     color: white;
 }
 
-.bg-dark {
-    background-color: #363435 !important;
+.navbar-bottom {
+    border-top: 1.5px;
+    border-bottom: 1.5px;
+    border-left: 0;
+    border-right: 0;
+    border-color: black;
+    border-style: solid;
 }
 
-.logo-navbar {
-    margin: 2.25rem;
-    text-align: center;
+.btn {
+    padding: 12px 0;
+    width: 120px;
+    font-size: small;
+    border-radius: 10px;
+    font-weight: 500;
 }
 
+.btn-dark {
+    background-color: #363435;
+}
 
 /* Responsive Media */
 /* xs screen */
