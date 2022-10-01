@@ -17,6 +17,10 @@ a:hover {
     color: #535352;
 }
 
+a:hover > i {
+    color: #535352;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -29,9 +33,7 @@ ul {
 
 /* xs screen */
 @media (max-width: 540px) {
-    .footer-brand {
-        margin-top: -22%;
-    }
+    
 }
 
 /* sm screen */
@@ -41,23 +43,13 @@ ul {
 
 /* md screen */
 @media (min-width: 720px) {
-    .footer-list-product {
-        margin-left: 2%;
-    }
-
-    .footer-brand {
-        margin-top: -11%;
-    }
+    
 }
 
 /* lg screen */
 @media (min-width: 960px) {
-    .footer-list-product {
-        margin-left: 5%;
-    }
-
-    .footer-info-pages {
-        width: 20%;
+    .container-lg {
+        max-width: 1200px !important;
     }
 }
 

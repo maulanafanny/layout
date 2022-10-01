@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: Poppins, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+input:focus {
+    outline: none;
+}
+
+i, li, a, button {
+    color: #363435;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #363435;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bi {
+    vertical-align: middle;
+    color: inherit;
+}
+
+
+/* Notification */
+.notification {
+    background-color: #363435;
+    color: white;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+.notification-text {
+    position: relative;
+}
+
+@keyframes scrolling-text {
+    from {
+        left: 100%;
+    }
+
+    to {
+        left: -130%;
+    }
+}
+
+
+/* Logo Brand */
+.logo {
+    max-width: 230px;
+}
+
+
+/* Search Box */
+.search-box {
+    max-width: 550px;
+}
+
+.search-group {
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.search-input {
+    border: 1px;
+    border-right: solid 1px;
+    border-radius: 10px 0 0 10px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+
+/* Icon Group */
+.icon-group {
+    min-width: 190px;
+}
+
+
+/* Lower Navbar */
+.nav-collapse {
+    border-width: 1px 0 1px 0;
+    border-style: solid;
+    border-color: #363435;
+}
+
+
+/* Dropdown Categories */
+.drop {
+    border-width: 0 1px 0 1px;
+    border-style: solid;
+    border-color: #363435;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.drop-button {
+    vertical-align: middle;
+}
+
+.drop-list {
+    border: #36343549 1px solid;
+    width: inherit;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    border-radius: 0 0 5px 5px;
+    transform: translate(-5.5%, 4.5%);
+}
+
+
+/* Badge */
+.pages-badge {
+    position: absolute;
+    bottom: 13px;
+    left: 47px;
+    font-size: 9px;
+    line-height: 12px;
+    border-radius: 4px 4px 4px 0;
+    padding: 0 3px;
+    font-weight: 400;
+    color: white;
+}
+
+.icon-badge {
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+    padding: 5px;
+    line-height: 6px;
+    font-size: 9px;
+    color: white;
+}
+
+
+/* Pages Navigation */
+.pages-nav {
+    max-width: 450px;
+    padding: 0;
+}
+
+.pages-link {
+    transition: .3s;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* Responsive Media */
+@media (min-width: 320px) {
+    .drop {
+        max-width: 50px;
+    }
+
+    .drop:hover {
+        background-color: #363435;
+    }
+
+    .drop:hover > a {
+        color: white !important;
+    }
+
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
+    }
+
+    .nav-lower {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .pages-nav {
+        display: flex;
+        justify-content: space-evenly;
+        width: 120%;
+    }
+}
+
+@media (min-width: 375px) {
+    .pages-nav {
+        width: 100%;
+    }
+}
+
+@media (min-width: 425px) {
+    .pages-link:hover {
+        background-color: #363435;
+    }
+
+    .pages-link:hover > a {
+        color: white;
+    }
+
+    .pages-link {
+        padding: 0.8rem 1rem;
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo {
+        margin: 0;
+    }
+
+    .drop:hover {
+        background-color: #363435;
+    }
+
+    .drop:hover > a {
+        color: white !important;
+    }
+
+    .drop:hover > .drop-list {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .pages-nav {
+        justify-content: center;
+        min-width: 490px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .pages-link {
+        padding: 0.85rem 1rem;
+        display: inline-block;
+    }
+
+    .drop {
+        max-width: inherit;
+    }
+
+    .nav-lower {
+        flex-wrap: initial;
+        overflow-x: initial;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 1140px;
+    }
+
+    .pages-nav {
+        min-width: 550px;
+    }
+
+    .pages-link {
+        padding: 0.88rem 1.5rem;
+        display: inline-block;
+    }
+}

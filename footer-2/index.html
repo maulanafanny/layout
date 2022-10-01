@@ -7,90 +7,84 @@
     <title>Footer 1</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="../bootstrap/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.1/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin="" />
-    <script src="https://unpkg.com/leaflet@1.9.1/dist/leaflet.js" integrity="sha256-NDI0K41gVbWqfkkaHj15IzU7PtMoelkzyKp8TOaFQ3s=" crossorigin=""></script>
 </head>
 <body>
-    <div style="height: 365px;"></div>
+    <div style="height: 500px;"></div>
 
     <footer class="container-fluid p-0">
 
         <!-- Footer Menu -->
         <div class="container-fluid" style="background-color: #eeeeee;">
-            <div class="container-lg">
-                
-                <div class="row">
-                    <div class="col-lg-7 col-6 py-md-5">
+            <div class="container-lg py-md-5">
+                <div class="row justify-content-center">
 
-                    <div class="row">
-                        <div class="col-md-6 col mb-3 pt-4">
-                            <img src="/assets/natasha-skin.png" class="img-thumbnail px-4 py-5 mb-2" alt="natasha-skin">
-                        </div>
+                    <!-- Brand Description -->
+                    <div class="col-lg-3 col-md-5 mb-md-0 mb-3 footer-brand">
+                        <img src="/assets/natasha-skin.png" class="img-thumbnail px-4 py-5 mb-2" alt="natasha-skin">
+                        <h5 class="fw-semibold my-3">Natasha Skin Care Clinic</h5>
+                        <p>Natasha Skin Care adalah klinik kecantikan yang berdiri sejak tahun 1999 di Ponorogo, Jawa Timur.</p>
                     </div>
+
+                    <!-- List Product -->
+                    <div class="col-lg-2 col-md-3 col-5 footer-list-product">
+                        <h3 class="fw-bold mb-3">List Product</h3>
+                        <ul class="fw-semibold">
+                            <li class="py-md-2 pb-2"><a href="#">Bali Breeze</a></li>
+                            <li class="py-md-2 pb-2"><a href="#">Body Series</a></li>
+                            <li class="py-md-2 pb-2"><a href="#">Hair Series</a></li>
+                            <li class="py-md-2 pb-2"><a href="#">Make Up</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Information Pages -->
+                    <div class="col-lg-2 col-md-3 col me-2 footer-info-pages">
+                        <h3 class="fw-bold mb-3">Information</h3>
+
                         <div class="row">
 
-                            <!-- Brand Description -->
-                            <div class="col-lg-7 col-md-5 mb-md-0 mb-3">
-                                <h4 class="fw-semibold">Natasha Skin Care Clinic</h4>
-                                <p>Jl. Sukarno Hatta No.25, Manyar Sabrangan, Kec. Mulyorejo, Kota SBY, Jawa Timur 60116</p>
-                                <div>
-                                    <span class="me-2"><a href="#"><i class="bi bi-instagram fs-5"></i></a></span>
-                                    <span class="me-2"><a href="#"><i class="bi bi-youtube fs-5"></i></a></span>
-                                    <span class="me-2"><a href="#"><i class="bi bi-pinterest fs-5"></i></a></span>
-                                </div>
+                            <!-- First Links Column -->
+                            <div class="col-xl-5 col-md-12 col">
+                                <ul class="fw-semibold my-auto">
+                                    <li class="py-md-2 pb-2"><a href="#">About Us</a></li>
+                                    <li class="py-md-2 pb-2"><a href="#">Gallery</a></li>
+                                    <li class="py-md-2 pb-2"><a href="#">About Us</a></li>
+                                </ul>
                             </div>
 
-                            <!-- Information Pages -->
-                            <div class="col-lg-5 col-md-3 col footer-info-pages mb-4">
-                                <h3 class="fw-bold mb-3">Information</h3>
-
-                                <div class="row">
-
-                                    <!-- First Links Column -->
-                                    <div class="col-xl-5 col-md-12 col">
-                                        <ul class="fw-semibold my-auto">
-                                            <li class="py-md-2 pb-2"><a href="#">About Us</a></li>
-                                            <li class="py-md-2 pb-2"><a href="#">Gallery</a></li>
-                                            <li class="py-md-2 pb-2"><a href="#">About Us</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <!-- Second Links Column -->
-                                    <div class="col-xl-7 col-lg-12 col">
-                                        <ul class="fw-semibold my-auto">
-                                            <li class="py-md-2 pb-2"><a href="#">Testimony</a></li>
-                                            <li class="py-md-2 pb-2"><a href="#">Treatment</a></li>
-                                            <li class="py-md-2 pb-2"><a href="#">Our Branches</a></li>
-                                        </ul>
-                                    </div>
-
-                                </div>
-
+                            <!-- Second Links Column -->
+                            <div class="col-xl-7 col-lg-12 col">
+                                <ul class="fw-semibold my-auto">
+                                    <li class="py-md-2 pb-2"><a href="#">Testimony</a></li>
+                                    <li class="py-md-2 pb-2"><a href="#">Treatment</a></li>
+                                    <li class="py-md-2 pb-2"><a href="#">Our Branches</a></li>
+                                </ul>
                             </div>
 
                         </div>
                     </div>
-                    <div class="col-6 col-lg-5">
-                        <div id="map" class="h-100"></div>
-                        <script>
 
-                            var map = L.map('map').setView([-7.2812987, 112.7810431], 17);
-
-                            var tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                maxZoom: 19,
-                                attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-                            }).addTo(map);
-                            var marker = L.marker([-7.2812987, 112.7810431], {
-                                title: 'Natasha Skin Care Clinic',
-                            }).addTo(map);
-
-                        </script>
+                    <!-- Contact Information -->
+                    <div class="col-xl-3 col-md-9 col-lg mt-lg-0 mt-md-4 mt-3">
+                        <h3 class="fw-bold mb-3">Contact Us</h3>
+                        <ul>
+                            <li class="row align-items-baseline">
+                                <i class="bi bi-whatsapp col-1 "></i>
+                                <p class="pt-2 col-11">0812-5981-2793</p>
+                            </li>
+                            <li class="row align-items-baseline">
+                                <i class="bi bi-envelope col-1 "></i>
+                                <p class="col-11">abiersofyantie@gmail.com</p>
+                            </li>
+                            <li class="row align-items-baseline">
+                                <i class="bi bi-geo-alt col-1 "></i>
+                                <p class="col-11">Jl. Sukarno Hatta No.25, Manyar Sabrangan, Kec. Mulyorejo, Kota SBY, Jawa Timur 60116</p>
+                            </li>
+                        </ul>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
         <!-- End of Footer Menu -->

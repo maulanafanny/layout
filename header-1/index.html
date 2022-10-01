@@ -14,106 +14,65 @@
 
     <header>
 
-        <!-- Notification Section -->
-        <div class="notification text-center">
-            <p class="notification-text p-3 m-0">
-                New products discount up to <strong class="fs-5">50%</strong> + free shipping with no minimum purchase, hurry before they run out!
-            </p>
-        </div>
+        <nav class="navbar navbar-expand-lg py-4 navbar-light shadow-sm">
+            <div class="container">
 
-        <!-- Upper Navbar -->
-        <nav class="container py-3">
-            <div class="row align-items-center justify-content-between">
+                <!-- Brand -->
+                <a href="#" class="navbar-brand order-1">
+                    <img src="../assets/logo.png" alt="brand-logo">
+                </a>
 
-                <!-- Logo -->
-                <div class="col-lg-3 col-md-4 logo px-0 mx-auto mx-lg-0">
-                    <a class="p-0" href="#">
-                        <img id="logo" src="/assets/natasha-skin.png" width="100%" height="100%" alt="natasha-skin">
-                    </a>
-                </div>
-
-                <!-- Search Box -->
-                <div class="col-lg-5 col-md-8 search-box">
-                    <form autocomplete="off" role="search" class="d-flex p-0 search-group shadow-sm">
-                        <input type="text" class="search-input" placeholder="Enter your keyword..." aria-label="Enter your keyword...">
-                        <button class="search-button btn px-3" type="submit"><i class="bi bi-search fs-5 text-muted"></i></button>
-                    </form>
-                </div>
-
-                <!-- Icon Group -->
-                <ul class="col-lg-2 my-auto text-end d-none d-lg-block icon-group">
-                    <li class="d-inline-block px-3">
-                        <a class="position-relative" href="#"><i class="bi bi-bag fs-5"></i>
-                            <span class="position-absolute icon-badge translate-middle bg-danger border border-light rounded-circle">3</span>
-                        </a>
+                <!-- Social Media Icons -->
+                <ul class="ms-auto my-auto order-lg-3 order-2 d-md-block d-none">
+                    <li class="d-inline me-2">
+                        <a href="#" class=""><i class="bi bi-facebook"></i></a>
                     </li>
-                    <li class="d-inline-block px-3">
-                        <a class="position-relative" href="#"><i class="bi bi-heart fs-5"></i>
-                            <span class="position-absolute icon-badge translate-middle bg-danger border border-light rounded-circle">8</span>
-                        </a>
+                    <li class="d-inline mx-2">
+                        <a href="#" class=""><i class="bi bi-instagram"></i></a>
                     </li>
-                    <li class="d-inline-block ps-3"><a href="#"><i class="bi bi-person fs-5"></i></a></li>
+                    <li class="d-inline mx-2">
+                        <a href="#" class=""><i class="bi bi-youtube"></i></a>
+                    </li>
+                    <li class="d-inline ms-2">
+                        <a href="#" class=""><i class="bi bi-pinterest"></i></a>
+                    </li>
                 </ul>
 
-            </div>
-        </nav>
+                <!-- Button Collapse -->
+                <button class="navbar-toggler ms-5 order-lg-4 order-3" type="button" data-bs-toggle="collapse" data-bs-target="#nav-collapse" aria-controls="nav-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- Lower Navbar -->
-        <div class="nav-collapse">
-            <div class="container">
-                <div class="row nav-lower justify-content-between align-items-center">
-
-                    <!-- Categories Dropdown -->
-                    <div class="drop col-lg-3 col-md-1 py-2 text-center">
-                        <a class="drop-button d-none d-md-block" href="#"><i class="bi bi-list fs-4 me-1"></i> All Categories</a>
-                        <a class="drop-button d-sm-block d-md-none" href="#" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"><i class="bi bi-list fs-4 me-1"></i></a>
-                        <ul class="drop-list py-2 position-absolute text-start shadow-sm">
-                            <li class="py-1"><a href="#">Lorem</a></li>
-                            <li class="py-1"><a href="#">Ipsum</a></li>
-                            <li class="py-1"><a href="#">Dolor</a></li>
-                            <li class="py-1"><a href="#">Sit</a></li>
-                            <li class="py-1"><a href="#">Amet</a></li>
-                        </ul>
-                    </div>
-
-                    <!-- Offcanvas Sidebar -->
-                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                        <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">All Categories</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                        </div>
-                        <div class="offcanvas-body">
-                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                                <li class="pb-4"><a class="text-secondary" href="#">Lorem</a></li>
-                                <li class="pb-4"><a class="text-secondary" href="#">Ipsum</a></li>
-                                <li class="pb-4"><a class="text-secondary" href="#">Dolor</a></li>
-                                <li class="pb-4"><a class="text-secondary" href="#">Sit</a></li>
-                                <li class="pb-4"><a class="text-secondary" href="#">Amet</a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <!-- Pages Navigation -->
-                    <ul class="col-lg-5 col-md-6 mx-auto my-auto text-center pages-nav">
-                        <li class="pages-link"><a href="#">HOME</a></li>
-                        <li class="pages-link">
-                            <a class="position-relative" href="#">SHOP
+                <!-- Navigation Pages -->
+                <div class="collapse navbar-collapse order-lg-2 order-4" id="nav-collapse">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item my-lg-0 my-3 mt-4">
+                            <a href="#" class="mx-lg-4">HOME</a>
+                        </li>
+                        <li class="nav-item my-lg-0 my-3">
+                            <a href="#" class="mx-lg-4 position-relative">
+                                SHOP
                                 <span class="pages-badge translate-middle bg-danger">NEW</span>
                             </a>
                         </li>
-                        <li class="pages-link"><a href="#">BLOG</a></li>
-                        <li class="pages-link"><a href="#">PAGES</a></li>
-                        <li class="pages-link"><a href="#">ELEMENTS</a></li>
+                        <li class="nav-item my-lg-0 my-3">
+                            <a href="#" class="mx-lg-4">BLOG</a>
+                        </li>
+                        <li class="nav-item my-lg-0 my-3">
+                            <a href="#" class="mx-lg-4">PAGES</a>
+                        </li>
+                        <li class="nav-item my-lg-0 my-3">
+                            <a href="#" class="mx-lg-4">ELEMENTS</a>
+                        </li>
                     </ul>
-
-                    <!-- Contact -->
-                    <div class="col-lg-2 my-auto text-end d-none d-lg-block">
-                        <a href="#"><i class="bi bi-telephone-fill me-1"></i> <small>0735-0282-284</small></a>
-                    </div>
-
                 </div>
+
+                
+
+                
+
             </div>
-        </div>
+        </nav>
 
     </header>
 
